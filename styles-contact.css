@@ -1,0 +1,159 @@
+/* ---Global Styles--- */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+body {
+    background: #F9DEC9;
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.25;
+    min-width: 950px;
+}
+header {
+    background: #685044;
+    padding: 10px 150px;
+    max-width: 900px; 
+}
+nav a {
+    font-family: "Kaushan Script";
+    color: #F7FFF7; 
+    font-size: 2rem;
+}
+.call {
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    padding: 10px;
+    font-family: "Kaushan Script";
+    /* display: block; */
+    border: 2px solid red;
+}
+
+img {
+    /* float: left; */
+    width: 50%;
+    height:150px;
+    object-fit:center;
+    object-position:top;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid #FDDC5C;
+}
+.form-item input,
+.form-item button {
+    border: 2px solid #E9AFA3;
+    background-color: whitesmoke;
+    padding: 15px;
+    font-size: 18px;
+}
+.form-item textarea {
+    border: 2px solid #E9AFA3;
+    background-color: whitesmoke;
+    padding: 15px;
+    height: 100px;
+    font-size: 18px;
+}
+.form-item input,
+.form-item textarea,
+.placeholder {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.form-item button {
+    width: 50%;
+    color: #F7FFF7;
+    font-weight:bold;
+    margin: 30px;
+    background-color: #685044;
+}
+.form-item button:hover {
+    border: 2px solid #685044;
+    background-color:#685044;
+    color: #343434;
+}
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #685044;
+}
+
+/* ------------For screen less than 600px ------- */
+@media(max-width: 600px)
+{
+img {
+    float: none;
+    border-radius: 40%;
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+form {
+    clear: both;
+}    
+.form-item {
+flex-direction:column;
+}
+.form-item label{
+    flex-basis: 10px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.form-item input,
+.form-item textarea {
+    font-size: 13px;
+    width: 100%;
+}
+footer {
+    margin-top: 25%;  
+}
+}
+
+/* ------------For screen more than 900px ------- */
+@media(min-width: 900px)
+{
+img {
+    float: left;
+    border-radius: 40%;
+    width: 20%;
+    margin-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.call {
+    text-align: center;
+    font-family: "Kaushan Script";
+    font-size: 1.5rem;
+}
+form {
+    clear: both;
+}
+footer {
+    margin-top: 30%;  
+}
+}
+
+
+
+
