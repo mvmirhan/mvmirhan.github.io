@@ -79,19 +79,22 @@ ul{
     list-style-type: none;
 }
 
-.bio-photo {
+header img {
     float:left;
     padding: 20px 20px 10px 0px;
     border-radius: 50%;
     width: 30%;
 }
-.p-heading {
+
+header p {
     width: auto;
 }
-.clear {
+
+#clear {
     clear: both;
 }
-#a-color {
+
+header a {
     color: #F7FFF7;
     font-family: "Kaushan Script";
     font-size: 25px;
