@@ -1,135 +1,132 @@
-/* ---Global Styles--- */
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 html, body {
     box-sizing: border-box;
-    width: 100%;
     margin: 0px;
+    /* width: 100%; */
 }
 
 body {
     color: #343434;
     font-family: sans-serif;
-    font-size: 15px;
-    line-height: 1.25;
+    /* font-size: 15px; */
+    /* line-height: 1.25; */
 }
 
-/* ---Header-About Me--- */
-header {
+header { 
     background: #685044;
     color: #F7FFF7;
-    width: 100%;
 }
 
-img {
-    padding: 0px 10px 0px 20px;
-    width: 50%;
+.content-margin {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    /* text-align: justify; */
 }
-a {
-    color: #343434;
-}
-h1 {
-    font-size: 40px;
+
+#h2-header {
     text-align: left;
 }
-h2 {
-    font-size: 30px;
-    text-align:center;
-}
-.h2-header {
-    text-align: left;
-}
+
 h1,h2 {
     font-family: "Kaushan Script";
     font-weight: 400;
-    margin: 0;
 }
+
+h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 p{
     text-align: justify;
-}
-a:hover {
-    text-decoration: none;
-}
-.content-margin {
-    width: 850px;
-    margin: 0 auto;
-    padding: 40px 0;
-    text-align: justify;
-}
-.center {
-    text-align: center;
-}
-.container {
-   display:flex;
-    justify-content:space-around;
-}
-.tile {
-    /* width: auto; */
-    margin: 0px 10px;
-    padding: 5px;
-    text-align:left;
-    vertical-align: top;
-    font-size: 0.8rem;
-}
-h3 {
-    text-align: center;
-    font-size: 15px;
-}
-ul{
-    list-style-type: none;
 }
 
 header img {
     float:left;
-    padding: 20px 20px 10px 0px;
     border-radius: 50%;
     width: 30%;
-}
-
-header p {
-    width: auto;
-}
-
-#clear {
-    clear: both;
+    padding: 0px 30px 0px 0px;
 }
 
 header a {
     color: #F7FFF7;
     font-family: "Kaushan Script";
     font-size: 25px;
-    font-weight: 200;
 }
 
-/* ---Portfolio--- */
+#clear {
+    clear: both;
+}
+
 .portfolio {
     background: #F9DEC9;
 }
 
-/* ---Skills--- */
 .skills {
     background: #E9AFA3;
 }
 
-.img-skills {
+.container {
+    display:flex;
+     justify-content:space-around;
+ }
+
+ .tile {
+     margin: 0px 10px;
+     padding: 10px;
+     text-align: center;
+ }
+
+ h3 {
+    text-align: center;
+    font-size: 15px;
+    background:#343434;
+    color: #F7FFF7;
+}
+
+.portfolio p {
+    font-size: 90%;
+}
+
+img {
+    padding: 0px 10px 0px 20px;
     width: 40%;
 }
 
+main ul {
+    font-size: 90%;
+    text-align: left;
+    list-style-type: none;
+}
 
+a {
+    color: #343434;
+}
 
+a:hover {
+    text-decoration: none;
+}
 
-/* ---Footer--- */
 footer {
     background:#343434;
     color: #F7FFF7;
-    padding: 20px 0 10px 0;
+    text-align: center;
 }
-.footer a {
+footer a {
     color: #F7FFF7;
     padding: 20px;
     display: inline-block;
 }
-.contact-list {
+#contact-list {
     list-style-type: none;
     display: flex;
     padding: 0px;
@@ -137,14 +134,10 @@ footer {
 }
 
 
-
-
-
-
 /* For screen less than 600px */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px)
+{
     html, body {
-        /* font-size: 1.5rem; */
         width: 100vh;
         height: 100%;
     }
@@ -154,39 +147,59 @@ footer {
         flex-direction: column;
     }
 
-    /* --Header---- */
     header {
         width: 100%;
-        background-color: red;
+        background-color: #685044;
+        flex-direction: column;
         text-align: center;
+        font-size:200%
     }
-    /* h1 {
+
+    header h1, h2 {
+        font-size:150%;
+    }
+
+     h1 {
        text-align: center;
     }
-    .h2-header {
+
+    #h2-header {
         text-align: center;
     }
+
     h2 {
         padding-top: 10px;
     }
-    .bio-photo {
+
+    header img {
         float:none;
+        width: 20%;
+        text-align: center;
     }
+
     #a-color {
         font-size: 30px;
     }
+
     .container {
         flex-direction: column;
         width: 80%
     }
+
     .tile {
         width: 100%;
         text-align:center;
+        font-size:200%;
     }
+
+    .tile img {
+        width: 20%;
+    }
+
     .footer {
         display: block;
-    } */
-}
+    } 
+} 
     
 
 
