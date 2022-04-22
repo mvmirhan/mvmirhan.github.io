@@ -19,10 +19,8 @@ header {
 }
 
 .content-margin {
-    width: 80%;
-    margin: 0 auto;
+    margin: 0px;
     padding: 20px 40px;
-    /* text-align: justify; */
 }
 
 #h2-header {
@@ -55,6 +53,7 @@ header img {
     border-radius: 50%;
     width: 30%;
     padding: 0px 30px 0px 0px;
+    max-width: 190px;
 }
 
 header a {
@@ -77,7 +76,7 @@ header a {
 
 .container {
     display:flex;
-     justify-content:space-around;
+     justify-content:center;
  }
 
  .tile {
@@ -91,6 +90,8 @@ header a {
     font-size: 15px;
     background:#343434;
     color: #F7FFF7;
+    border-radius: 5%;
+    padding: 5px;
 }
 
 .portfolio p {
@@ -133,8 +134,20 @@ footer a {
     justify-content: center;
 }
 
+/* For Tablet */
+@media screen and (max-width: 900px)
+{
+    .container {
+        flex-wrap:wrap;
+    }
 
-/* For screen less than 600px */
+    .tile {
+        width: 40%;
+    }
+    
+}
+
+/* For Mobile */
 @media screen and (max-width: 600px)
 {
     /* html, body {
@@ -171,9 +184,7 @@ footer a {
     }
 } 
 
-/* For screen more than 600px and less than 900px
-@media screen and (max-width: 900px) */
-    
+
 
 
 
