@@ -17,9 +17,7 @@
  2. Github: https://github.com/mvmirhan/mvmirhan.github.io
 
  3. Folder: Screenshots: https://github.com/mvmirhan/mvmirhan.github.io/tree/main/screenshots
-    2.1 Main CSS is for Laptop: working
-    2.2 Media Queries set-up for mobile: working
-    2.3 Media Queries set-up for tablet: working
+
 
  4. Features:
     4.1 Navigation: Underline texts in About Me pages (Header: "Let's keep in Touch!", Footer: "Linkedin", "About Me"). Underline texts in Contact Form (Header: "Marivic Mirhan", Footer: "Linkedin", "About Me"). Pages where feature is applied: Index.html and contact.html
@@ -29,16 +27,6 @@
     4.5 Link to Linkedin: Working. Pages where feature is applied: Index.html and contact.html
     4.6 Link to Github: Working. Page where feature is applied: Index.html
 
-
-Dear Ali and Mentors
-Thank you for patiently teaching us during this session of the program.
-I wont be able to complete my portfolio without your guidance and help.
-I'm really grateful to be given the opportunity to learn these set of new skills.
-
-Hi ALi - I took a screen recording to demonstrate the features but I wasnt able to commit it to Github. I'll try to send to DM you via slack if it will allow me.
-
-Regards,
-Marivic
 
 
     
